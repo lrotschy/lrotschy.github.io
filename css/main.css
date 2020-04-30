@@ -199,12 +199,12 @@ main article {
 
 #app img {
   width: 80%;
-  background-color: white;
+  /* background-color: white; */
 }
 
 #project img, img.full {
-  border-radius: 8px;
-  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.4);
+  /* border-radius: 8px; */
+  /* box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.4); */
 }
 
 #other-projects {
@@ -501,7 +501,5 @@ footer small a {
   #info h2 {
     font-size: 30px;
   }
-  .icon {
-    background-color: white;
-  }
+  
 }
