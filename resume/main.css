@@ -1,0 +1,173 @@
+body {
+  padding: 0;
+  width: 850px;
+  height: 1200px;
+  font-family: 'Lato', sans-serif;
+  background-color: white;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.squeeze {
+  letter-spacing: -.2px;
+}
+
+p.spacing {
+  height: .3em;
+}
+
+/*======
+  INFO
+======*/
+
+div.info {
+  display: inline-block;
+  padding-top: 2em;
+  width: 24%;
+  text-align: right;
+}
+
+.info h1 {
+  font-size: 30px;
+  margin-top: 0.5em;
+  margin-bottom: .4em;
+}
+
+.info li {
+  font-size: 15px;
+  padding-bottom: 1em;
+}
+
+.info .title {
+  font-size: 20px;
+  color: #666;
+  font-weight: 300;
+}
+
+.info img {
+  width: 40%;
+}
+
+.to p {
+  font-size: 14px;
+  text-align: right;
+  line-height: 1.5em;
+}
+
+.from li {
+  font-size: 14px;
+}
+
+.space {
+  height: 500px;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+/*===============
+     CONTENT
+===============*/
+.content ul {
+  margin-left: 1.1em;
+}
+
+.content h2 {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 800;
+  color: #888;
+}
+
+div.content {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  float: right;
+  width: 72%;
+}
+
+.content h3:first-of-type {
+  margin-top: 0.5em;
+}
+
+.content h3 {
+  font-size: 20px;
+  margin-top: 1em;
+  margin-bottom: 0;
+  letter-spacing: .5px;
+}
+
+p.subtitle {
+  padding: .1em 0 .2em 0;
+  font-size: 18px;
+  font-weight: 300;
+  color: #555;
+}
+
+.projects p.subtitle {
+  padding: .1em 0 0 0;
+}
+
+.content li {
+  padding: .3em 0;
+  font-size: 16px;
+  list-style: disc;
+}
+
+.content span {
+  display: inline-block;
+  padding-left: .5em;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.content span:before {
+  content: '// ';
+}
+
+.content div {
+  padding: 20px 0;
+  border-bottom: 1.5px dashed #9B9B9B;
+}
+
+div.borderless {
+  border: none;
+}
+
+.projects span {
+  font-size: 0.8em;
+  color: #727171;
+}
+
+.projects span:before {
+  content: '';
+}
+
+.education .subtitle {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.education h3 {
+  margin-top: 10px;
+}
+
+.skills h2 {
+  margin-bottom: 10px;
+}
+
+.link {
+  text-decoration: underline;
+  font-weight: inherit;
+}
