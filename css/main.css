@@ -199,6 +199,7 @@ main article {
 
 #app img {
   width: 80%;
+  background-color: white;
 }
 
 #project img, img.full {
@@ -235,7 +236,7 @@ main article {
   margin-bottom: 24px;
 }
 
-.box.first {
+/* .box.first {
   width: 70%;
   margin-left: 10%;
 }
@@ -243,7 +244,7 @@ main article {
 .box.last {
   margin-left: -10%;
   width: 70%;
-}
+} */
 
 strong {
   font-weight: 500;
@@ -499,5 +500,8 @@ footer small a {
 
   #info h2 {
     font-size: 30px;
+  }
+  .icon {
+    background-color: white;
   }
 }
