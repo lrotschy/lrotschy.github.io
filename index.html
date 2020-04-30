@@ -1,27 +1,145 @@
+---
+---
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Liela Rotschy</title>
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1></h1>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:lielarotschy@gmail.com">email</a></li>
-        		<li><a href="https://github.com/lrotschy">github.com/lrotschy</a></li>
-			</ul>
-		</footer>
-	</body>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Liela Rotschy | Software Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,500,900" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="images/logo.png" />
+  <link rel="stylesheet" href="/css/reset.css" />
+  <link rel="stylesheet" href="/css/main.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Ying Chyi Gooi</h1>
+
+    <nav>
+      <a class="email" href="mailto:lielarotschy@gmail.com"></a>
+      <a class="linkedin" href="https://www.linkedin.com/in/liela-rotschy-a28b3033/" target="_blank"></a>
+      <a class="github" href="https://github.com/lrotschy" target="_blank"></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <div class="image">
+        <img src="images/portrait.jpg" />
+      </div>
+      <article>
+        <div class="box">
+          <p>
+            I am a software engineer with experience building containerized backend systems. I am a former Linguistics
+            PhD student with <a href="https://scholar.google.com/citations?user=cGpNV9cAAAAJ">expertise in formal
+              semantics and
+              pragmatics.</a>
+            <p>
+              Most recently, I built <a href="https://bkpk.dev/" target="_blank">Backpack</a> &mdash; a portable
+              Backend-as-a-Service.
+            </p>
+
+            <p><a href="/#more">More about me</a></p>
+        </div>
+      </article>
+    </section>
+
+    <section class="light" id="project">
+      <article>
+        <div class="box">
+          <h4>// Recent Work</h4>
+
+          <img class="mobile" src="images/app-mobile.png" />
+
+          <h2>Backpack</h2>
+          <p>
+            <a href="https://bkpk.dev/" target="_blank">Backpack</a>
+          </p>
+          <p>
+            SpaceCraft is built using a Node.js server that manages REPL code evaluation and connects multiple clients
+            through WebSockets. SpaceCraft is deployed with Docker and scaled to handle multiple user sessions using a
+            reverse proxy server.
+          </p>
+
+          <a href="https://bkpk.dev/case_study.html" target="_blank">
+            <button>
+              Read case study
+            </button>
+          </a>
+        </div>
+      </article>
+      <div id="app">
+        <img src="images/app.png" />
+      </div>
+    </section>
+
+    <article>
+      <div class="box last">
+        <h4 class="placeholder">_</h4>
+
+        <h2>Toolbox Data Visualizer<img src="images/react.png" /><img src="images/ruby.png" /></h2>
+        <p>Built in Ruby using Sinatra, with embedded R for visualizations</p>
+
+        <h2>Todos<img src="images/react.png" /></h2>
+        <p>
+          Todos: a to-do management system built in Javascript with an API backend
+        </p>
+
+        <h2>Trellis<img src="images/rails.png" /></h2>
+        <p>A Trello clone built in React and Redux with a Rails API backend that supports creating, editing, and
+          deleting boards, lists, and cards</p>
+
+        <h2>Post-It<img src="images/react.png" /></h2>
+        <p>
+          A Reddit-like app built with Ruby on Rails and PostgreSQL allowing users to create, comment on, and
+          upvote/downvote posts
+        </p>
+      </div>
+    </article>
+    </section>
+  </main>
+
+  <footer>
+    <article id="more">
+      <div class="box">
+        <h2>More About Me</h2>
+        <p>
+          I am a full-stack engineer with experience building containerized backend systems. I have experience with
+          Ruby, JavaScript, PostgreSQL, Docker, Rails, and React. I am a former Linguistics PhD student with <a
+            href="https://scholar.google.com/citations?user=cGpNV9cAAAAJ">expertise in formal semantics and
+            pragmatics.</a> I am currently seeking a remote position in software engineering.
+        </p>
+
+        <a href="/resume/lielarotschy.pdf" target="_blank">
+          <button>Resume</button>
+        </a>
+      </div>
+    </article>
+    <article id="info">
+      <div class="box">
+        <h2>Liela Rotschy</h2>
+        <!-- <h4>// Brooklyn, NY</h4> -->
+        <h2>Let's Connect</h2>
+        <p>
+          <a href="mailto:lielarotschyi@gmail.com">gooiyingchyi@gmail.com</a>
+        </p>
+        <nav>
+          <a class="linkedin" href="https://www.linkedin.com/in/liela-rotschy-a28b3033/" target="_blank"></a>
+          <a class="github" href="https://github.com/lrotschy" target="_blank"></a>
+          <a class="medium" href="https://bkpk.dev" target="_blank"></a>
+        </nav>
+      </div>
+    </article>
+    <!-- <small>
+      Design by 
+      <a class="designer-link" href="https://www.instagram.com/linzimurray.creative/" target="_blank">
+        linzimurray.creative
+      </a>
+    </small> -->
+  </footer>
+
+</body>
+
 </html>
