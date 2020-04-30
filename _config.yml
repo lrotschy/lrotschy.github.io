@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Liela Rotschy
+title: "personal website"
 email: lielarotschy@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
  Liela Rotschy, software engineer, personal website
@@ -18,4 +18,4 @@ github_username:  lrotschy
 # Build settings
 markdown: kramdown
 
-theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
