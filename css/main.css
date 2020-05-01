@@ -323,6 +323,10 @@ footer small a {
   font-weight: 300;
 }
 
+.other_apps {
+  width: 25%;
+}
+
 @media screen and (max-width: 1200px) {
   #app img {
     width: 90%;
