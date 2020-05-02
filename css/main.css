@@ -23,7 +23,8 @@ header {
 h1 {
   font-weight: 900;
   font-size: 40px;
-  text-transform: small-caps;
+  /* text-transform: small-caps; */
+  font-variant: small-caps;
 }
 
 nav a {
