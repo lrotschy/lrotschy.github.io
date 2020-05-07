@@ -217,7 +217,8 @@ main article {
 }
 
 #other-projects h2 {
-  font-size: 36px;
+  font-size: 32px;
+  /* font-size: 36px; */
 }
 
 #other-projects h2:not(:first-of-type) {
@@ -282,7 +283,7 @@ strong {
   display: flex;
   flex-wrap: wrap;
   flex-basis: 100%;
-  padding: 50px;
+  padding: 20px;
 } 
 
 .project {
@@ -340,7 +341,7 @@ footer small a {
 }
 
 #other-projects img {
-  width: 30%;
+  width: 40%;
 }
 
 @media screen and (max-width: 1200px) {
