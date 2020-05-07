@@ -128,7 +128,11 @@ footer article {
 }
 
 .box {
-  width: 60%;
+  /* width: 60%; */
+  width: 100%;
+}
+.project {
+  width: 50%;
 }
 
 button {
