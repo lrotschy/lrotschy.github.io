@@ -134,6 +134,8 @@ footer article {
 }
 .project {
   width: 40%;
+  align-items: center;
+  padding: 15px;
 }
 
 button {
@@ -288,10 +290,6 @@ strong {
   flex-basis: 100%;
   padding: 20px;
 } 
-
-.example-project {
-  flex-basis: 50%;     
-}
 
 /* Footer */
 
