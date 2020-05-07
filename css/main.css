@@ -279,7 +279,7 @@ strong {
   flex: 2;
 }
 /* Added flex specs */
-#other-projects {
+.box.last {
   display: flex;
   flex-wrap: wrap;
   flex-basis: 100%;
@@ -341,7 +341,7 @@ footer small a {
 }
 
 #other-projects img {
-  width: 40%;
+  width: 70%;
 }
 
 @media screen and (max-width: 1200px) {
