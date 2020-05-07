@@ -277,6 +277,17 @@ strong {
 .player-wrapper {
   flex: 2;
 }
+/* Added flex specs */
+#other-projects {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  padding: 50px;
+} 
+
+.project {
+  flex-basis: 50%;     
+}
 
 /* Footer */
 
@@ -348,17 +359,6 @@ footer small a {
   br.mobile {
     display: block;
   }  
-
-  #other-projects {
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: 100%;
-    padding: 50px;
-  } 
-
-  .project {
-    flex-basis:50%;     
-  }
 }
 
 @media screen and (max-width: 900px) {
