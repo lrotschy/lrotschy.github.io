@@ -219,6 +219,9 @@ main article {
   /* align-items: flex-start; */
   align-items: center;
 }
+#other-projects-heading {
+  flex: 1 0 100%;
+}
 
 #other-projects h2 {
   font-size: 32px;
