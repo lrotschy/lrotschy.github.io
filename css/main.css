@@ -128,8 +128,8 @@ footer article {
 }
 
 .box {
-  /* width: 60%; */
-  width: 100%;
+  width: 60%;
+  /* width: 100%; */
 }
 .project {
   width: 50%;
@@ -348,6 +348,17 @@ footer small a {
   br.mobile {
     display: block;
   }  
+
+  #other-projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    padding: 50px;
+  } 
+
+  .project {
+    flex-basis:50%;     
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -421,19 +432,11 @@ footer small a {
     padding: 60px 0 30px 0;
   }
 
-  /* #other-projects {
+  #other-projects {
     padding: 80px 0;
     flex-direction: column;
-  } */
- #other-projects {
-    display: flex;
-    flex-wrap:wrap;
-    flex-basis: 100%;
-  } 
-
-  .project {
-    flex-basis:50%;     
   }
+
 
   #other-projects article {
     padding: 20px 0; 
