@@ -134,6 +134,7 @@ footer article {
 }
 .project {
   width: 40%;
+  margin: 0 auto;
 }
 
 button {
