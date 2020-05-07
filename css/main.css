@@ -135,7 +135,7 @@ footer article {
 .project {
   width: 50%;
   align-items: center;
-  padding: 15px;
+  padding: 25px;
 }
 
 button {
@@ -440,9 +440,9 @@ footer small a {
     flex-direction: column;
   }
 
-  /* #other-projects article {
+  #other-projects {
     padding: 20px 0; 
-  } */
+  }
 
   .box.first, .box.last {
     margin-left: 0;
