@@ -173,6 +173,7 @@ h4 {
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 36px;
+  width: 100%;
 }
 
 footer h4 {
@@ -342,7 +343,7 @@ footer small a {
 }
 
 #other-projects img {
-  width: 70%;
+  width: 90%;
 }
 
 @media screen and (max-width: 1200px) {
