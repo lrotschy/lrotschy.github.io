@@ -110,7 +110,8 @@ footer {
   display: block;
   /* height: 50vw; */
   /* width: 50vw; */
-  height: 100%;
+  /* height: 100%; */
+  width: 50%;
 }
 
 h2 img {
