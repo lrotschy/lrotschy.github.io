@@ -109,7 +109,7 @@ footer {
 .intro img {
   display: block;
   /* height: 50vw; */
-  width: 40vw;
+  width: 60vw;
   /* height: 100%; */
 }
 
@@ -128,16 +128,12 @@ footer article {
   background-color: #030c15;
 }
 
-#other-projects-title {
-  width: 100%;
-}
-
 .box {
   width: 60%;
   /* width: 100%; */
 }
 .project {
-  width: 50%;
+  width: 40%;
 }
 
 button {
