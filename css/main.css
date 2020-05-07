@@ -134,7 +134,6 @@ footer article {
 }
 .project {
   width: 40%;
-  margin: 0 auto;
 }
 
 button {
@@ -215,7 +214,8 @@ main article {
 }
 
 #other-projects {
-  align-items: flex-start;
+  /* align-items: flex-start; */
+  align-items: center;
 }
 
 #other-projects h2 {
