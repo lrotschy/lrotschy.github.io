@@ -108,8 +108,8 @@ footer {
 
 .intro img {
   display: block;
-  height: 50vw;
-  /* width: 60vw; */
+  /* height: 50vw; */
+  width: 60vw;
   /* height: 100%; */
 }
 
