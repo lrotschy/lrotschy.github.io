@@ -23,8 +23,8 @@ header {
 h1 {
   font-weight: 900;
   font-size: 40px;
-  /* text-transform: small-caps; */
-  font-variant: small-caps;
+  text-transform: uppercase;
+  /* font-variant: small-caps; */
 }
 
 nav a {
@@ -108,16 +108,8 @@ footer {
 
 .intro img {
   display: block;
-  /* height: 50vw; */
-  width: 60vw;
-  /* height: 100%; */
-}
-
-h2 img {
-  display: inline-block;
-  height: 42px;
-  padding: 0 10px;
-  margin-bottom: -8px;
+  height: 50vw;
+  width: 50vw;
 }
 
 main article,
@@ -130,12 +122,6 @@ footer article {
 
 .box {
   width: 60%;
-  /* width: 100%; */
-}
-.project {
-  width: 50%;
-  align-items: center;
-  padding: 40px;
 }
 
 button {
@@ -193,11 +179,6 @@ main article {
   flex: 1.02;
 }
 
-/* #project .box {
-  margin-left: 7%;
-  width: 70%;
-} */
-
 #app {
   flex: 1;
   display: flex;
@@ -207,25 +188,27 @@ main article {
 
 #app img {
   width: 80%;
-  /* background-color: white; */
 }
 
-/* #project img, img.full { */
-  /* border-radius: 8px; */
-  /* box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.4); */
-/* } */
-
 #other-projects {
-  /* align-items: flex-start; */
   align-items: center;
 }
 #other-projects-heading {
   flex: 1 0 100%;
+  margin-left: 7%;
+  padding-left: 20px;
 }
 
 #other-projects h2 {
-  font-size: 32px;
-  /* font-size: 36px; */
+  font-size: 30px;
+}
+
+#other-projects p {
+  font-size: 18px;
+}
+
+#other-projects img {
+  width: 50%;
 }
 
 #other-projects h2:not(:first-of-type) {
@@ -249,42 +232,17 @@ main article {
   margin-bottom: 24px;
 }
 
-/* .box.first {
-  width: 70%;
-  margin-left: 10%;
+.project {
+  width: 45%;
+  align-items: center;
+  padding: 0 40px 40px 40px;
+  margin-left: 5%;
 }
-
-.box.last {
-  margin-left: -10%;
-  width: 70%;
-} */
 
 strong {
   font-weight: 500;
 }
 
-#presentation {
-  display: flex;
-  flex-direction: row;
-}
-
-#presentation .box {
-  margin-left: 10%;
-  width: 55%;
-}
-
-#presentation article {
-  flex: 1;
-  background-color: #030c15;
-}
-
-#player {
-  height: 100%;
-}
-
-.player-wrapper {
-  flex: 2;
-}
 /* Added flex specs */
 .box.last {
   width: 100%;
@@ -343,10 +301,6 @@ footer small {
 
 footer small a {
   font-weight: 300;
-}
-
-#other-projects img {
-  width: 70%;
 }
 
 @media screen and (max-width: 1200px) {
