@@ -24,7 +24,6 @@ h1 {
   font-weight: 900;
   font-size: 40px;
   text-transform: uppercase;
-  /* font-variant: small-caps; */
 }
 
 nav a {
@@ -51,6 +50,7 @@ a.medium { background-image: url("/images/medium.png"); }
 .placeholder {
   filter: opacity(0%);
 }
+
 /* main sections */
 
 main,
@@ -71,11 +71,6 @@ footer p {
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 20px;
-}
-
-main p:last-of-type,
-footer p:last-of-type {
-  margin-bottom: 40px;
 }
 
 main p a,
@@ -190,68 +185,36 @@ main article {
   width: 80%;
 }
 
-#other-projects {
-  align-items: center;
-}
-#other-projects-heading {
-  flex: 1 0 100%;
-  margin-left: 7%;
-  padding-left: 20px;
-}
-
-#other-projects h2 {
+.other-projects h2 {
   font-size: 30px;
 }
 
-#other-projects p {
+.other-projects p {
   font-size: 18px;
 }
 
-#other-projects img {
+.other-projects img {
   width: 50%;
 }
 
-#other-projects h2:not(:first-of-type) {
-  margin-top: 40px;
+.other-projects h4 {
+  height: 2em;
+  width: 100%;
 }
 
-#other-projects article:first-of-type {
-  flex: 6;
-}
-
-#other-projects article:last-of-type {
-  flex: 5;
-}
-
-.full {
-  width: 105%;
-}
-
-#other-projects .full {
-  margin-top: 18px;
-  margin-bottom: 24px;
+.other-projects.box {
+  width: 50%;
 }
 
 .project {
-  width: 45%;
+  width: 100%;
   align-items: center;
-  padding: 0 40px 40px 40px;
-  margin-left: 5%;
+  padding-bottom: 40px;
 }
 
 strong {
   font-weight: 500;
 }
-
-/* Added flex specs */
-.box.last {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-basis: 100%;
-  padding: 20px;
-  align-items: center;
-} 
 
 /* Footer */
 
@@ -341,14 +304,32 @@ footer small a {
     margin: 0;
   }
 
+  .recent-projects {
+    margin: 0;
+    padding: 0;
+  }
+
+  .recent-projects article:first-of-type {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .recent-projects article:last-of-type {
+    padding-top: 0;
+    margin-top: 0;
+  }
+
   .mobile {
     display: block;
     max-width: 100%;
     margin: 40px 0;
   }
 
-  #app {
+  /* #app {
     display: none; 
+  } */
+  #app img {
+    margin: 0;
+    padding: 0;
   }
 
   header > h1 {
@@ -392,13 +373,14 @@ footer small a {
     padding: 60px 0 30px 0;
   }
 
-  #other-projects {
+  .other-projects {
     padding: 80px 0;
     flex-direction: column;
   }
 
-  #other-projects {
-    padding: 20px 0; 
+  .project {
+    padding: 20px 0;
+    margin: 0;
   }
 
   .box.first, .box.last {
@@ -429,6 +411,9 @@ footer small a {
 
   .placeholder {
     display: none;
+  }
+  .recent-projects {
+    flex-direction: column;
   }
 }
 
@@ -480,6 +465,11 @@ footer small a {
 
   #info h2 {
     font-size: 30px;
+  }
+
+  .other-projects {
+    padding: 0;
+    margin: 0;
   }
   
 }
